@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Expense Tracker</h1>
+  </header>
+
+  <main>
+    <section id="expense-form">
+      <h2>Add Expense</h2>
+      <form id="add-expense-form">
+        <label for="expense-name">Expense Name: UPD Saxena</label>
+        <input type="text" id="expense-name" required>
+        <label for="expense-amount">Amount:2000 - 10000</label>
+        <input type="number" id="expense-amount" required>
+        <button type="submit">Add Expense</button>
+      </form>
+    </section>
+
+    <section id="expense-list">
+      <h2>Expenses</h2>
+      <ul id="expenses"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
